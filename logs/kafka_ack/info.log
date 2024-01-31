@@ -1,0 +1,710 @@
+09:08:46.122 [main] INFO  o.j.k.KafkaAckApplication - [logStarting,55] - Starting KafkaAckApplication using Java 1.8.0_231 on ZHNX41376 with PID 7256 (D:\code\java_study\kafka_ack\target\classes started by Administrator in D:\code\java_study\kafka_ack)
+09:08:46.127 [main] INFO  o.j.k.KafkaAckApplication - [logStartupProfileInfo,645] - No active profile set, falling back to 1 default profile: "default"
+09:08:46.818 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+09:08:46.819 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+09:08:46.819 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+09:08:46.926 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+09:08:47.085 [main] INFO  o.a.c.f.i.CuratorFrameworkImpl - [start,338] - Starting
+09:08:47.094 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:zookeeper.version=3.8.0-5a02a05eddb59aee6ac762f7ea82e92a68eb9c0f, built on 2022-02-25 08:49 UTC
+09:08:47.095 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:host.name=ZHNX41376
+09:08:47.095 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:java.version=1.8.0_231
+09:08:47.095 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:java.vendor=Oracle Corporation
+09:08:47.095 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:java.home=C:\dev\jdk\jdk1.8.0_231\jre
+09:08:47.095 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:java.class.path=C:\dev\jdk\jdk1.8.0_231\jre\lib\charsets.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\deploy.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\ext\access-bridge-64.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\ext\cldrdata.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\ext\dnsns.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\ext\jaccess.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\ext\jfxrt.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\ext\localedata.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\ext\nashorn.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\ext\sunec.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\ext\sunjce_provider.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\ext\sunmscapi.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\ext\sunpkcs11.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\ext\zipfs.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\javaws.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\jce.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\jfr.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\jfxswt.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\jsse.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\management-agent.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\plugin.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\resources.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\rt.jar;D:\code\java_study\kafka_ack\target\classes;C:\dev\maven\maven_company_repository\org\springframework\boot\spring-boot-starter-web\2.6.13\spring-boot-starter-web-2.6.13.jar;C:\dev\maven\maven_company_repository\org\springframework\boot\spring-boot-starter\2.6.13\spring-boot-starter-2.6.13.jar;C:\dev\maven\maven_company_repository\org\springframework\boot\spring-boot\2.6.13\spring-boot-2.6.13.jar;C:\dev\maven\maven_company_repository\org\springframework\boot\spring-boot-autoconfigure\2.6.13\spring-boot-autoconfigure-2.6.13.jar;C:\dev\maven\maven_company_repository\org\springframework\boot\spring-boot-starter-logging\2.6.13\spring-boot-starter-logging-2.6.13.jar;C:\dev\maven\maven_company_repository\org\apache\logging\log4j\log4j-to-slf4j\2.17.2\log4j-to-slf4j-2.17.2.jar;C:\dev\maven\maven_company_repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\dev\maven\maven_company_repository\org\slf4j\jul-to-slf4j\1.7.36\jul-to-slf4j-1.7.36.jar;C:\dev\maven\maven_company_repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\dev\maven\maven_company_repository\org\yaml\snakeyaml\1.29\snakeyaml-1.29.jar;C:\dev\maven\maven_company_repository\org\springframework\boot\spring-boot-starter-json\2.6.13\spring-boot-starter-json-2.6.13.jar;C:\dev\maven\maven_company_repository\com\fasterxml\jackson\core\jackson-databind\2.13.4.2\jackson-databind-2.13.4.2.jar;C:\dev\maven\maven_company_repository\com\fasterxml\jackson\core\jackson-annotations\2.13.4\jackson-annotations-2.13.4.jar;C:\dev\maven\maven_company_repository\com\fasterxml\jackson\core\jackson-core\2.13.4\jackson-core-2.13.4.jar;C:\dev\maven\maven_company_repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.13.4\jackson-datatype-jdk8-2.13.4.jar;C:\dev\maven\maven_company_repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.4\jackson-datatype-jsr310-2.13.4.jar;C:\dev\maven\maven_company_repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.13.4\jackson-module-parameter-names-2.13.4.jar;C:\dev\maven\maven_company_repository\org\springframework\boot\spring-boot-starter-tomcat\2.6.13\spring-boot-starter-tomcat-2.6.13.jar;C:\dev\maven\maven_company_repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.68\tomcat-embed-core-9.0.68.jar;C:\dev\maven\maven_company_repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.68\tomcat-embed-el-9.0.68.jar;C:\dev\maven\maven_company_repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.68\tomcat-embed-websocket-9.0.68.jar;C:\dev\maven\maven_company_repository\org\springframework\spring-web\5.3.23\spring-web-5.3.23.jar;C:\dev\maven\maven_company_repository\org\springframework\spring-beans\5.3.23\spring-beans-5.3.23.jar;C:\dev\maven\maven_company_repository\org\springframework\spring-webmvc\5.3.23\spring-webmvc-5.3.23.jar;C:\dev\maven\maven_company_repository\org\springframework\spring-aop\5.3.23\spring-aop-5.3.23.jar;C:\dev\maven\maven_company_repository\org\springframework\spring-expression\5.3.23\spring-expression-5.3.23.jar;C:\dev\maven\maven_company_repository\org\springframework\kafka\spring-kafka\2.8.10\spring-kafka-2.8.10.jar;C:\dev\maven\maven_company_repository\org\springframework\spring-context\5.3.23\spring-context-5.3.23.jar;C:\dev\maven\maven_company_repository\org\springframework\spring-messaging\5.3.23\spring-messaging-5.3.23.jar;C:\dev\maven\maven_company_repository\org\springframework\spring-tx\5.3.23\spring-tx-5.3.23.jar;C:\dev\maven\maven_company_repository\org\springframework\retry\spring-retry\1.3.4\spring-retry-1.3.4.jar;C:\dev\maven\maven_company_repository\org\apache\kafka\kafka-clients\3.0.2\kafka-clients-3.0.2.jar;C:\dev\maven\maven_company_repository\com\github\luben\zstd-jni\1.5.0-2\zstd-jni-1.5.0-2.jar;C:\dev\maven\maven_company_repository\org\lz4\lz4-java\1.7.1\lz4-java-1.7.1.jar;C:\dev\maven\maven_company_repository\org\xerial\snappy\snappy-java\1.1.8.1\snappy-java-1.1.8.1.jar;C:\dev\maven\maven_company_repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\dev\maven\maven_company_repository\com\alibaba\fastjson2\fastjson2-extension-spring5\2.0.39\fastjson2-extension-spring5-2.0.39.jar;C:\dev\maven\maven_company_repository\com\alibaba\fastjson2\fastjson2-extension\2.0.39\fastjson2-extension-2.0.39.jar;C:\dev\maven\maven_company_repository\com\alibaba\fastjson2\fastjson2\2.0.39\fastjson2-2.0.39.jar;C:\dev\maven\maven_company_repository\org\apache\curator\curator-framework\5.2.1\curator-framework-5.2.1.jar;C:\dev\maven\maven_company_repository\org\apache\curator\curator-client\5.2.1\curator-client-5.2.1.jar;C:\dev\maven\maven_company_repository\com\google\guava\guava\27.0.1-jre\guava-27.0.1-jre.jar;C:\dev\maven\maven_company_repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\dev\maven\maven_company_repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\dev\maven\maven_company_repository\org\checkerframework\checker-qual\2.5.2\checker-qual-2.5.2.jar;C:\dev\maven\maven_company_repository\com\google\errorprone\error_prone_annotations\2.2.0\error_prone_annotations-2.2.0.jar;C:\dev\maven\maven_company_repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\dev\maven\maven_company_repository\org\codehaus\mojo\animal-sniffer-annotations\1.17\animal-sniffer-annotations-1.17.jar;C:\dev\maven\maven_company_repository\org\apache\curator\curator-recipes\5.2.1\curator-recipes-5.2.1.jar;C:\dev\maven\maven_company_repository\org\apache\zookeeper\zookeeper\3.8.0\zookeeper-3.8.0.jar;C:\dev\maven\maven_company_repository\org\apache\zookeeper\zookeeper-jute\3.8.0\zookeeper-jute-3.8.0.jar;C:\dev\maven\maven_company_repository\org\apache\yetus\audience-annotations\0.12.0\audience-annotations-0.12.0.jar;C:\dev\maven\maven_company_repository\io\netty\netty-handler\4.1.84.Final\netty-handler-4.1.84.Final.jar;C:\dev\maven\maven_company_repository\io\netty\netty-common\4.1.84.Final\netty-common-4.1.84.Final.jar;C:\dev\maven\maven_company_repository\io\netty\netty-resolver\4.1.84.Final\netty-resolver-4.1.84.Final.jar;C:\dev\maven\maven_company_repository\io\netty\netty-buffer\4.1.84.Final\netty-buffer-4.1.84.Final.jar;C:\dev\maven\maven_company_repository\io\netty\netty-transport\4.1.84.Final\netty-transport-4.1.84.Final.jar;C:\dev\maven\maven_company_repository\io\netty\netty-transport-native-unix-common\4.1.84.Final\netty-transport-native-unix-common-4.1.84.Final.jar;C:\dev\maven\maven_company_repository\io\netty\netty-codec\4.1.84.Final\netty-codec-4.1.84.Final.jar;C:\dev\maven\maven_company_repository\io\netty\netty-tcnative\2.0.54.Final\netty-tcnative-2.0.54.Final.jar;C:\dev\maven\maven_company_repository\io\netty\netty-tcnative-classes\2.0.54.Final\netty-tcnative-classes-2.0.54.Final.jar;C:\dev\maven\maven_company_repository\io\netty\netty-transport-native-epoll\4.1.84.Final\netty-transport-native-epoll-4.1.84.Final.jar;C:\dev\maven\maven_company_repository\io\netty\netty-transport-classes-epoll\4.1.84.Final\netty-transport-classes-epoll-4.1.84.Final.jar;C:\dev\maven\maven_company_repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\dev\maven\maven_company_repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;C:\dev\maven\maven_company_repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar;C:\dev\maven\maven_company_repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\dev\maven\maven_company_repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;C:\dev\maven\maven_company_repository\org\springframework\spring-core\5.3.23\spring-core-5.3.23.jar;C:\dev\maven\maven_company_repository\org\springframework\spring-jcl\5.3.23\spring-jcl-5.3.23.jar;C:\dev\maven\maven_company_repository\org\springframework\boot\spring-boot-configuration-processor\2.6.13\spring-boot-configuration-processor-2.6.13.jar;D:\Program Files\JetBrains\IntelliJ IDEA 2023.2.5\lib\idea_rt.jar;C:\Users\Administrator\AppData\Local\JetBrains\IntelliJIdea2023.3\captureAgent\debugger-agent.jar
+09:08:47.096 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:java.library.path=C:\dev\jdk\jdk1.8.0_231\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\dev\jdk\jdk1.8.0_231\bin;C:\dev\jdk\jdk1.8.0_231\jre\bin;C:\dev\maven\apache-maven-3.2.2\bin;D:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Roaming\nvm;D:\Program Files\nodejs;C:\dev\groovy\groovy-4.0.15\bin;C:\dev\Go\bin;D:\ProgramData\anaconda3;D:\ProgramData\anaconda3\Scripts;D:\ProgramData\anaconda3\Library\mingw-w64\bin;D:\ProgramData\anaconda3\Library\usr\bin;D:\ProgramData\anaconda3\Library\bin;C:\Program Files (x86)\cmd;C:\dev\gcc\x86_64-13.2.0-release-win32-seh-ucrt-rt_v11-rev1\bin;;C:\Program Files\Docker\Docker\resources\bin;D:\Program Files (x86)\Tencent\微信web开发者工具\dll;C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python312\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\Program Files\JetBrains\IntelliJ IDEA 2023.2.5\bin;;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\nvm;D:\Program Files\nodejs;.
+09:08:47.096 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:java.io.tmpdir=C:\Users\Administrator\AppData\Local\Temp\
+09:08:47.096 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:java.compiler=<NA>
+09:08:47.096 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:os.name=Windows 10
+09:08:47.097 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:os.arch=amd64
+09:08:47.097 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:os.version=10.0
+09:08:47.097 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:user.name=Administrator
+09:08:47.097 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:user.home=C:\Users\Administrator
+09:08:47.097 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:user.dir=D:\code\java_study\kafka_ack
+09:08:47.097 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:os.memory.free=176MB
+09:08:47.097 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:os.memory.max=3604MB
+09:08:47.098 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:os.memory.total=210MB
+09:08:47.102 [main] INFO  o.a.z.ZooKeeper - [<init>,637] - Initiating client connection, connectString=172.16.17.112:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@38cedb7d
+09:08:47.107 [main] INFO  o.a.z.c.X509Util - [<clinit>,77] - Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+09:08:47.119 [main] INFO  o.a.z.ClientCnxnSocket - [initProperties,239] - jute.maxbuffer value is 1048575 Bytes
+09:08:47.123 [main] INFO  o.a.z.ClientCnxn - [initRequestTimeout,1732] - zookeeper.request.timeout value is 0. feature enabled=false
+09:08:47.127 [main-SendThread(172.16.17.112:2181)] INFO  o.a.z.ClientCnxn - [logStartConnect,1171] - Opening socket connection to server ZHNX41376/172.16.17.112:2181.
+09:08:47.127 [main-SendThread(172.16.17.112:2181)] INFO  o.a.z.ClientCnxn - [logStartConnect,1173] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+09:08:47.129 [main] INFO  o.a.c.f.i.CuratorFrameworkImpl - [start,386] - Default schema
+09:08:47.129 [main-SendThread(172.16.17.112:2181)] INFO  o.a.z.ClientCnxn - [primeConnection,1005] - Socket connection established, initiating session, client: /172.16.17.112:59626, server: ZHNX41376/172.16.17.112:2181
+09:08:47.141 [main-SendThread(172.16.17.112:2181)] INFO  o.a.z.ClientCnxn - [onConnected,1444] - Session establishment complete on server ZHNX41376/172.16.17.112:2181, session id = 0x100000bd42d0008, negotiated timeout = 40000
+09:08:47.147 [main-EventThread] INFO  o.a.c.f.s.ConnectionStateManager - [postState,252] - State change: CONNECTED
+09:08:47.161 [main-EventThread] INFO  o.a.c.f.i.EnsembleTracker - [processConfigData,201] - New config event received: {}
+09:08:47.161 [main-EventThread] INFO  o.a.c.f.i.EnsembleTracker - [processConfigData,201] - New config event received: {}
+09:08:47.643 [main] INFO  o.a.k.c.a.AdminClientConfig - [logAll,376] - AdminClientConfig values: 
+	bootstrap.servers = [172.16.17.112:9093]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+09:08:47.685 [main] INFO  o.a.k.c.u.AppInfoParser - [<init>,119] - Kafka version: 3.0.2
+09:08:47.685 [main] INFO  o.a.k.c.u.AppInfoParser - [<init>,120] - Kafka commitId: 25b1aea02e37da14
+09:08:47.685 [main] INFO  o.a.k.c.u.AppInfoParser - [<init>,121] - Kafka startTimeMs: 1706663327684
+09:09:17.700 [kafka-admin-client-thread | adminclient-1] INFO  o.a.k.c.a.i.AdminMetadataManager - [updateFailed,235] - [AdminClient clientId=adminclient-1] Metadata update failed
+org.apache.kafka.common.errors.TimeoutException: Timed out waiting for a node assignment. Call: fetchMetadata
+09:09:27.729 [kafka-admin-client-thread | adminclient-1] INFO  o.a.k.c.a.KafkaAdminClient - [threadShouldExit,1319] - [AdminClient clientId=adminclient-1] Forcing a hard I/O thread shutdown. Requests in progress will be aborted.
+09:09:27.730 [kafka-admin-client-thread | adminclient-1] INFO  o.a.k.c.u.AppInfoParser - [unregisterAppInfo,83] - App info kafka.admin.client for adminclient-1 unregistered
+09:09:27.730 [kafka-admin-client-thread | adminclient-1] INFO  o.a.k.c.a.i.AdminMetadataManager - [updateFailed,235] - [AdminClient clientId=adminclient-1] Metadata update failed
+org.apache.kafka.common.errors.TimeoutException: The AdminClient thread has exited. Call: fetchMetadata
+09:09:27.730 [kafka-admin-client-thread | adminclient-1] INFO  o.a.k.c.a.KafkaAdminClient - [run,1345] - [AdminClient clientId=adminclient-1] Timed out 2 remaining operation(s) during close.
+09:09:27.735 [kafka-admin-client-thread | adminclient-1] INFO  o.a.k.c.m.Metrics - [close,659] - Metrics scheduler closed
+09:09:27.735 [kafka-admin-client-thread | adminclient-1] INFO  o.a.k.c.m.Metrics - [close,663] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+09:09:27.736 [kafka-admin-client-thread | adminclient-1] INFO  o.a.k.c.m.Metrics - [close,669] - Metrics reporters closed
+09:09:27.747 [main] INFO  o.a.k.c.c.ConsumerConfig - [logAll,376] - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [172.16.17.112:9093]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-listenerGroup1-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = listenerGroup1
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+09:09:27.770 [main] INFO  o.a.k.c.u.AppInfoParser - [<init>,119] - Kafka version: 3.0.2
+09:09:27.771 [main] INFO  o.a.k.c.u.AppInfoParser - [<init>,120] - Kafka commitId: 25b1aea02e37da14
+09:09:27.771 [main] INFO  o.a.k.c.u.AppInfoParser - [<init>,121] - Kafka startTimeMs: 1706663367770
+09:09:27.772 [main] INFO  o.a.k.c.c.KafkaConsumer - [subscribe,966] - [Consumer clientId=consumer-listenerGroup1-1, groupId=listenerGroup1] Subscribed to topic(s): topic1
+09:09:27.782 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+09:09:27.818 [main] INFO  o.j.k.KafkaAckApplication - [logStarted,61] - Started KafkaAckApplication in 42.005 seconds (JVM running for 43.561)
+09:09:32.015 [listener1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [resetStateAndGeneration,966] - [Consumer clientId=consumer-listenerGroup1-1, groupId=listenerGroup1] Resetting generation due to: consumer pro-actively leaving the group
+09:09:32.015 [listener1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [requestRejoin,988] - [Consumer clientId=consumer-listenerGroup1-1, groupId=listenerGroup1] Request joining group due to: consumer pro-actively leaving the group
+09:09:32.015 [listener1-0-C-1] INFO  o.a.k.c.c.KafkaConsumer - [unsubscribe,1075] - [Consumer clientId=consumer-listenerGroup1-1, groupId=listenerGroup1] Unsubscribed all topics or patterns and assigned partitions
+09:09:32.015 [listener1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [resetStateAndGeneration,966] - [Consumer clientId=consumer-listenerGroup1-1, groupId=listenerGroup1] Resetting generation due to: consumer pro-actively leaving the group
+09:09:32.015 [listener1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [requestRejoin,988] - [Consumer clientId=consumer-listenerGroup1-1, groupId=listenerGroup1] Request joining group due to: consumer pro-actively leaving the group
+09:09:32.015 [listener1-0-C-1] INFO  o.a.k.c.m.Metrics - [close,659] - Metrics scheduler closed
+09:09:32.015 [listener1-0-C-1] INFO  o.a.k.c.m.Metrics - [close,663] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+09:09:32.016 [listener1-0-C-1] INFO  o.a.k.c.m.Metrics - [close,669] - Metrics reporters closed
+09:09:32.017 [listener1-0-C-1] INFO  o.a.k.c.u.AppInfoParser - [unregisterAppInfo,83] - App info kafka.consumer for consumer-listenerGroup1-1 unregistered
+09:09:32.020 [Curator-Framework-0] INFO  o.a.c.f.i.CuratorFrameworkImpl - [backgroundOperationsLoop,998] - backgroundOperationsLoop exiting
+09:09:32.133 [SpringApplicationShutdownHook] INFO  o.a.z.ZooKeeper - [close,1232] - Session: 0x100000bd42d0008 closed
+09:09:32.133 [main-EventThread] INFO  o.a.z.ClientCnxn - [run,568] - EventThread shut down for session: 0x100000bd42d0008
+09:09:37.121 [main] INFO  o.j.k.KafkaAckApplication - [logStarting,55] - Starting KafkaAckApplication using Java 1.8.0_231 on ZHNX41376 with PID 15684 (D:\code\java_study\kafka_ack\target\classes started by Administrator in D:\code\java_study\kafka_ack)
+09:09:37.124 [main] INFO  o.j.k.KafkaAckApplication - [logStartupProfileInfo,645] - No active profile set, falling back to 1 default profile: "default"
+09:09:37.810 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8082"]
+09:09:37.811 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+09:09:37.811 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+09:09:37.905 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+09:09:38.063 [main] INFO  o.a.c.f.i.CuratorFrameworkImpl - [start,338] - Starting
+09:09:38.068 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:zookeeper.version=3.8.0-5a02a05eddb59aee6ac762f7ea82e92a68eb9c0f, built on 2022-02-25 08:49 UTC
+09:09:38.068 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:host.name=ZHNX41376
+09:09:38.068 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:java.version=1.8.0_231
+09:09:38.068 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:java.vendor=Oracle Corporation
+09:09:38.069 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:java.home=C:\dev\jdk\jdk1.8.0_231\jre
+09:09:38.069 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:java.class.path=C:\dev\jdk\jdk1.8.0_231\jre\lib\charsets.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\deploy.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\ext\access-bridge-64.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\ext\cldrdata.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\ext\dnsns.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\ext\jaccess.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\ext\jfxrt.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\ext\localedata.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\ext\nashorn.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\ext\sunec.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\ext\sunjce_provider.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\ext\sunmscapi.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\ext\sunpkcs11.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\ext\zipfs.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\javaws.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\jce.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\jfr.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\jfxswt.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\jsse.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\management-agent.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\plugin.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\resources.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\rt.jar;D:\code\java_study\kafka_ack\target\classes;C:\dev\maven\maven_company_repository\org\springframework\boot\spring-boot-starter-web\2.6.13\spring-boot-starter-web-2.6.13.jar;C:\dev\maven\maven_company_repository\org\springframework\boot\spring-boot-starter\2.6.13\spring-boot-starter-2.6.13.jar;C:\dev\maven\maven_company_repository\org\springframework\boot\spring-boot\2.6.13\spring-boot-2.6.13.jar;C:\dev\maven\maven_company_repository\org\springframework\boot\spring-boot-autoconfigure\2.6.13\spring-boot-autoconfigure-2.6.13.jar;C:\dev\maven\maven_company_repository\org\springframework\boot\spring-boot-starter-logging\2.6.13\spring-boot-starter-logging-2.6.13.jar;C:\dev\maven\maven_company_repository\org\apache\logging\log4j\log4j-to-slf4j\2.17.2\log4j-to-slf4j-2.17.2.jar;C:\dev\maven\maven_company_repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\dev\maven\maven_company_repository\org\slf4j\jul-to-slf4j\1.7.36\jul-to-slf4j-1.7.36.jar;C:\dev\maven\maven_company_repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\dev\maven\maven_company_repository\org\yaml\snakeyaml\1.29\snakeyaml-1.29.jar;C:\dev\maven\maven_company_repository\org\springframework\boot\spring-boot-starter-json\2.6.13\spring-boot-starter-json-2.6.13.jar;C:\dev\maven\maven_company_repository\com\fasterxml\jackson\core\jackson-databind\2.13.4.2\jackson-databind-2.13.4.2.jar;C:\dev\maven\maven_company_repository\com\fasterxml\jackson\core\jackson-annotations\2.13.4\jackson-annotations-2.13.4.jar;C:\dev\maven\maven_company_repository\com\fasterxml\jackson\core\jackson-core\2.13.4\jackson-core-2.13.4.jar;C:\dev\maven\maven_company_repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.13.4\jackson-datatype-jdk8-2.13.4.jar;C:\dev\maven\maven_company_repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.4\jackson-datatype-jsr310-2.13.4.jar;C:\dev\maven\maven_company_repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.13.4\jackson-module-parameter-names-2.13.4.jar;C:\dev\maven\maven_company_repository\org\springframework\boot\spring-boot-starter-tomcat\2.6.13\spring-boot-starter-tomcat-2.6.13.jar;C:\dev\maven\maven_company_repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.68\tomcat-embed-core-9.0.68.jar;C:\dev\maven\maven_company_repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.68\tomcat-embed-el-9.0.68.jar;C:\dev\maven\maven_company_repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.68\tomcat-embed-websocket-9.0.68.jar;C:\dev\maven\maven_company_repository\org\springframework\spring-web\5.3.23\spring-web-5.3.23.jar;C:\dev\maven\maven_company_repository\org\springframework\spring-beans\5.3.23\spring-beans-5.3.23.jar;C:\dev\maven\maven_company_repository\org\springframework\spring-webmvc\5.3.23\spring-webmvc-5.3.23.jar;C:\dev\maven\maven_company_repository\org\springframework\spring-aop\5.3.23\spring-aop-5.3.23.jar;C:\dev\maven\maven_company_repository\org\springframework\spring-expression\5.3.23\spring-expression-5.3.23.jar;C:\dev\maven\maven_company_repository\org\springframework\kafka\spring-kafka\2.8.10\spring-kafka-2.8.10.jar;C:\dev\maven\maven_company_repository\org\springframework\spring-context\5.3.23\spring-context-5.3.23.jar;C:\dev\maven\maven_company_repository\org\springframework\spring-messaging\5.3.23\spring-messaging-5.3.23.jar;C:\dev\maven\maven_company_repository\org\springframework\spring-tx\5.3.23\spring-tx-5.3.23.jar;C:\dev\maven\maven_company_repository\org\springframework\retry\spring-retry\1.3.4\spring-retry-1.3.4.jar;C:\dev\maven\maven_company_repository\org\apache\kafka\kafka-clients\3.0.2\kafka-clients-3.0.2.jar;C:\dev\maven\maven_company_repository\com\github\luben\zstd-jni\1.5.0-2\zstd-jni-1.5.0-2.jar;C:\dev\maven\maven_company_repository\org\lz4\lz4-java\1.7.1\lz4-java-1.7.1.jar;C:\dev\maven\maven_company_repository\org\xerial\snappy\snappy-java\1.1.8.1\snappy-java-1.1.8.1.jar;C:\dev\maven\maven_company_repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\dev\maven\maven_company_repository\com\alibaba\fastjson2\fastjson2-extension-spring5\2.0.39\fastjson2-extension-spring5-2.0.39.jar;C:\dev\maven\maven_company_repository\com\alibaba\fastjson2\fastjson2-extension\2.0.39\fastjson2-extension-2.0.39.jar;C:\dev\maven\maven_company_repository\com\alibaba\fastjson2\fastjson2\2.0.39\fastjson2-2.0.39.jar;C:\dev\maven\maven_company_repository\org\apache\curator\curator-framework\5.2.1\curator-framework-5.2.1.jar;C:\dev\maven\maven_company_repository\org\apache\curator\curator-client\5.2.1\curator-client-5.2.1.jar;C:\dev\maven\maven_company_repository\com\google\guava\guava\27.0.1-jre\guava-27.0.1-jre.jar;C:\dev\maven\maven_company_repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\dev\maven\maven_company_repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\dev\maven\maven_company_repository\org\checkerframework\checker-qual\2.5.2\checker-qual-2.5.2.jar;C:\dev\maven\maven_company_repository\com\google\errorprone\error_prone_annotations\2.2.0\error_prone_annotations-2.2.0.jar;C:\dev\maven\maven_company_repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\dev\maven\maven_company_repository\org\codehaus\mojo\animal-sniffer-annotations\1.17\animal-sniffer-annotations-1.17.jar;C:\dev\maven\maven_company_repository\org\apache\curator\curator-recipes\5.2.1\curator-recipes-5.2.1.jar;C:\dev\maven\maven_company_repository\org\apache\zookeeper\zookeeper\3.8.0\zookeeper-3.8.0.jar;C:\dev\maven\maven_company_repository\org\apache\zookeeper\zookeeper-jute\3.8.0\zookeeper-jute-3.8.0.jar;C:\dev\maven\maven_company_repository\org\apache\yetus\audience-annotations\0.12.0\audience-annotations-0.12.0.jar;C:\dev\maven\maven_company_repository\io\netty\netty-handler\4.1.84.Final\netty-handler-4.1.84.Final.jar;C:\dev\maven\maven_company_repository\io\netty\netty-common\4.1.84.Final\netty-common-4.1.84.Final.jar;C:\dev\maven\maven_company_repository\io\netty\netty-resolver\4.1.84.Final\netty-resolver-4.1.84.Final.jar;C:\dev\maven\maven_company_repository\io\netty\netty-buffer\4.1.84.Final\netty-buffer-4.1.84.Final.jar;C:\dev\maven\maven_company_repository\io\netty\netty-transport\4.1.84.Final\netty-transport-4.1.84.Final.jar;C:\dev\maven\maven_company_repository\io\netty\netty-transport-native-unix-common\4.1.84.Final\netty-transport-native-unix-common-4.1.84.Final.jar;C:\dev\maven\maven_company_repository\io\netty\netty-codec\4.1.84.Final\netty-codec-4.1.84.Final.jar;C:\dev\maven\maven_company_repository\io\netty\netty-tcnative\2.0.54.Final\netty-tcnative-2.0.54.Final.jar;C:\dev\maven\maven_company_repository\io\netty\netty-tcnative-classes\2.0.54.Final\netty-tcnative-classes-2.0.54.Final.jar;C:\dev\maven\maven_company_repository\io\netty\netty-transport-native-epoll\4.1.84.Final\netty-transport-native-epoll-4.1.84.Final.jar;C:\dev\maven\maven_company_repository\io\netty\netty-transport-classes-epoll\4.1.84.Final\netty-transport-classes-epoll-4.1.84.Final.jar;C:\dev\maven\maven_company_repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\dev\maven\maven_company_repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;C:\dev\maven\maven_company_repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar;C:\dev\maven\maven_company_repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\dev\maven\maven_company_repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;C:\dev\maven\maven_company_repository\org\springframework\spring-core\5.3.23\spring-core-5.3.23.jar;C:\dev\maven\maven_company_repository\org\springframework\spring-jcl\5.3.23\spring-jcl-5.3.23.jar;C:\dev\maven\maven_company_repository\org\springframework\boot\spring-boot-configuration-processor\2.6.13\spring-boot-configuration-processor-2.6.13.jar;D:\Program Files\JetBrains\IntelliJ IDEA 2023.2.5\lib\idea_rt.jar;C:\Users\Administrator\AppData\Local\JetBrains\IntelliJIdea2023.3\captureAgent\debugger-agent.jar
+09:09:38.069 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:java.library.path=C:\dev\jdk\jdk1.8.0_231\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\dev\jdk\jdk1.8.0_231\bin;C:\dev\jdk\jdk1.8.0_231\jre\bin;C:\dev\maven\apache-maven-3.2.2\bin;D:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Roaming\nvm;D:\Program Files\nodejs;C:\dev\groovy\groovy-4.0.15\bin;C:\dev\Go\bin;D:\ProgramData\anaconda3;D:\ProgramData\anaconda3\Scripts;D:\ProgramData\anaconda3\Library\mingw-w64\bin;D:\ProgramData\anaconda3\Library\usr\bin;D:\ProgramData\anaconda3\Library\bin;C:\Program Files (x86)\cmd;C:\dev\gcc\x86_64-13.2.0-release-win32-seh-ucrt-rt_v11-rev1\bin;;C:\Program Files\Docker\Docker\resources\bin;D:\Program Files (x86)\Tencent\微信web开发者工具\dll;C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python312\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\Program Files\JetBrains\IntelliJ IDEA 2023.2.5\bin;;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\nvm;D:\Program Files\nodejs;.
+09:09:38.069 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:java.io.tmpdir=C:\Users\Administrator\AppData\Local\Temp\
+09:09:38.069 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:java.compiler=<NA>
+09:09:38.069 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:os.name=Windows 10
+09:09:38.069 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:os.arch=amd64
+09:09:38.069 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:os.version=10.0
+09:09:38.069 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:user.name=Administrator
+09:09:38.070 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:user.home=C:\Users\Administrator
+09:09:38.070 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:user.dir=D:\code\java_study\kafka_ack
+09:09:38.070 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:os.memory.free=178MB
+09:09:38.070 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:os.memory.max=3604MB
+09:09:38.070 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:os.memory.total=209MB
+09:09:38.072 [main] INFO  o.a.z.ZooKeeper - [<init>,637] - Initiating client connection, connectString=172.16.17.112:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@56476c16
+09:09:38.074 [main] INFO  o.a.z.c.X509Util - [<clinit>,77] - Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+09:09:38.082 [main] INFO  o.a.z.ClientCnxnSocket - [initProperties,239] - jute.maxbuffer value is 1048575 Bytes
+09:09:38.086 [main] INFO  o.a.z.ClientCnxn - [initRequestTimeout,1732] - zookeeper.request.timeout value is 0. feature enabled=false
+09:09:38.090 [main-SendThread(172.16.17.112:2181)] INFO  o.a.z.ClientCnxn - [logStartConnect,1171] - Opening socket connection to server ZHNX41376/172.16.17.112:2181.
+09:09:38.090 [main-SendThread(172.16.17.112:2181)] INFO  o.a.z.ClientCnxn - [logStartConnect,1173] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+09:09:38.091 [main-SendThread(172.16.17.112:2181)] INFO  o.a.z.ClientCnxn - [primeConnection,1005] - Socket connection established, initiating session, client: /172.16.17.112:60266, server: ZHNX41376/172.16.17.112:2181
+09:09:38.091 [main] INFO  o.a.c.f.i.CuratorFrameworkImpl - [start,386] - Default schema
+09:09:38.100 [main-SendThread(172.16.17.112:2181)] INFO  o.a.z.ClientCnxn - [onConnected,1444] - Session establishment complete on server ZHNX41376/172.16.17.112:2181, session id = 0x100000bd42d0009, negotiated timeout = 40000
+09:09:38.105 [main-EventThread] INFO  o.a.c.f.s.ConnectionStateManager - [postState,252] - State change: CONNECTED
+09:09:38.114 [main-EventThread] INFO  o.a.c.f.i.EnsembleTracker - [processConfigData,201] - New config event received: {}
+09:09:38.114 [main-EventThread] INFO  o.a.c.f.i.EnsembleTracker - [processConfigData,201] - New config event received: {}
+09:09:38.437 [main] INFO  o.a.k.c.a.AdminClientConfig - [logAll,376] - AdminClientConfig values: 
+	bootstrap.servers = [172.16.17.112:9093]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+09:09:38.467 [main] INFO  o.a.k.c.u.AppInfoParser - [<init>,119] - Kafka version: 3.0.2
+09:09:38.468 [main] INFO  o.a.k.c.u.AppInfoParser - [<init>,120] - Kafka commitId: 25b1aea02e37da14
+09:09:38.468 [main] INFO  o.a.k.c.u.AppInfoParser - [<init>,121] - Kafka startTimeMs: 1706663378466
+09:10:08.478 [kafka-admin-client-thread | adminclient-1] INFO  o.a.k.c.a.i.AdminMetadataManager - [updateFailed,235] - [AdminClient clientId=adminclient-1] Metadata update failed
+org.apache.kafka.common.errors.TimeoutException: Timed out waiting for a node assignment. Call: fetchMetadata
+09:10:18.503 [kafka-admin-client-thread | adminclient-1] INFO  o.a.k.c.a.KafkaAdminClient - [threadShouldExit,1319] - [AdminClient clientId=adminclient-1] Forcing a hard I/O thread shutdown. Requests in progress will be aborted.
+09:10:18.504 [kafka-admin-client-thread | adminclient-1] INFO  o.a.k.c.u.AppInfoParser - [unregisterAppInfo,83] - App info kafka.admin.client for adminclient-1 unregistered
+09:10:18.505 [kafka-admin-client-thread | adminclient-1] INFO  o.a.k.c.a.i.AdminMetadataManager - [updateFailed,235] - [AdminClient clientId=adminclient-1] Metadata update failed
+org.apache.kafka.common.errors.TimeoutException: The AdminClient thread has exited. Call: fetchMetadata
+09:10:18.505 [kafka-admin-client-thread | adminclient-1] INFO  o.a.k.c.a.KafkaAdminClient - [run,1345] - [AdminClient clientId=adminclient-1] Timed out 2 remaining operation(s) during close.
+09:10:18.511 [kafka-admin-client-thread | adminclient-1] INFO  o.a.k.c.m.Metrics - [close,659] - Metrics scheduler closed
+09:10:18.512 [kafka-admin-client-thread | adminclient-1] INFO  o.a.k.c.m.Metrics - [close,663] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+09:10:18.512 [kafka-admin-client-thread | adminclient-1] INFO  o.a.k.c.m.Metrics - [close,669] - Metrics reporters closed
+09:10:18.529 [main] INFO  o.a.k.c.c.ConsumerConfig - [logAll,376] - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [172.16.17.112:9093]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-listenerGroup1-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = listenerGroup1
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+09:10:18.567 [main] INFO  o.a.k.c.u.AppInfoParser - [<init>,119] - Kafka version: 3.0.2
+09:10:18.568 [main] INFO  o.a.k.c.u.AppInfoParser - [<init>,120] - Kafka commitId: 25b1aea02e37da14
+09:10:18.568 [main] INFO  o.a.k.c.u.AppInfoParser - [<init>,121] - Kafka startTimeMs: 1706663418567
+09:10:18.569 [main] INFO  o.a.k.c.c.KafkaConsumer - [subscribe,966] - [Consumer clientId=consumer-listenerGroup1-1, groupId=listenerGroup1] Subscribed to topic(s): topic1
+09:10:18.585 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8082"]
+09:10:18.619 [main] INFO  o.j.k.KafkaAckApplication - [logStarted,61] - Started KafkaAckApplication in 41.834 seconds (JVM running for 42.907)
+09:10:53.785 [listener1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [resetStateAndGeneration,966] - [Consumer clientId=consumer-listenerGroup1-1, groupId=listenerGroup1] Resetting generation due to: consumer pro-actively leaving the group
+09:10:53.785 [listener1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [requestRejoin,988] - [Consumer clientId=consumer-listenerGroup1-1, groupId=listenerGroup1] Request joining group due to: consumer pro-actively leaving the group
+09:10:53.786 [listener1-0-C-1] INFO  o.a.k.c.c.KafkaConsumer - [unsubscribe,1075] - [Consumer clientId=consumer-listenerGroup1-1, groupId=listenerGroup1] Unsubscribed all topics or patterns and assigned partitions
+09:10:53.786 [listener1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [resetStateAndGeneration,966] - [Consumer clientId=consumer-listenerGroup1-1, groupId=listenerGroup1] Resetting generation due to: consumer pro-actively leaving the group
+09:10:53.786 [listener1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [requestRejoin,988] - [Consumer clientId=consumer-listenerGroup1-1, groupId=listenerGroup1] Request joining group due to: consumer pro-actively leaving the group
+09:10:53.786 [listener1-0-C-1] INFO  o.a.k.c.m.Metrics - [close,659] - Metrics scheduler closed
+09:10:53.786 [listener1-0-C-1] INFO  o.a.k.c.m.Metrics - [close,663] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+09:10:53.786 [listener1-0-C-1] INFO  o.a.k.c.m.Metrics - [close,669] - Metrics reporters closed
+09:10:53.788 [listener1-0-C-1] INFO  o.a.k.c.u.AppInfoParser - [unregisterAppInfo,83] - App info kafka.consumer for consumer-listenerGroup1-1 unregistered
+09:10:53.790 [Curator-Framework-0] INFO  o.a.c.f.i.CuratorFrameworkImpl - [backgroundOperationsLoop,998] - backgroundOperationsLoop exiting
+09:10:53.915 [main-EventThread] INFO  o.a.z.ClientCnxn - [run,568] - EventThread shut down for session: 0x100000bd42d0009
+09:10:53.915 [SpringApplicationShutdownHook] INFO  o.a.z.ZooKeeper - [close,1232] - Session: 0x100000bd42d0009 closed
+09:26:58.760 [main] INFO  o.j.k.KafkaAckApplication - [logStarting,55] - Starting KafkaAckApplication using Java 1.8.0_231 on ZHNX41376 with PID 24636 (D:\code\java_study\kafka_ack\target\classes started by Administrator in D:\code\java_study\kafka_ack)
+09:26:58.763 [main] INFO  o.j.k.KafkaAckApplication - [logStartupProfileInfo,645] - No active profile set, falling back to 1 default profile: "default"
+09:26:59.503 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8082"]
+09:26:59.503 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+09:26:59.504 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+09:26:59.595 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+09:26:59.766 [main] INFO  o.a.c.f.i.CuratorFrameworkImpl - [start,338] - Starting
+09:26:59.771 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:zookeeper.version=3.8.0-5a02a05eddb59aee6ac762f7ea82e92a68eb9c0f, built on 2022-02-25 08:49 UTC
+09:26:59.771 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:host.name=ZHNX41376
+09:26:59.771 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:java.version=1.8.0_231
+09:26:59.772 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:java.vendor=Oracle Corporation
+09:26:59.772 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:java.home=C:\dev\jdk\jdk1.8.0_231\jre
+09:26:59.772 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:java.class.path=C:\dev\jdk\jdk1.8.0_231\jre\lib\charsets.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\deploy.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\ext\access-bridge-64.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\ext\cldrdata.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\ext\dnsns.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\ext\jaccess.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\ext\jfxrt.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\ext\localedata.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\ext\nashorn.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\ext\sunec.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\ext\sunjce_provider.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\ext\sunmscapi.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\ext\sunpkcs11.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\ext\zipfs.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\javaws.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\jce.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\jfr.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\jfxswt.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\jsse.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\management-agent.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\plugin.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\resources.jar;C:\dev\jdk\jdk1.8.0_231\jre\lib\rt.jar;D:\code\java_study\kafka_ack\target\classes;C:\dev\maven\maven_company_repository\org\springframework\boot\spring-boot-starter-web\2.6.13\spring-boot-starter-web-2.6.13.jar;C:\dev\maven\maven_company_repository\org\springframework\boot\spring-boot-starter\2.6.13\spring-boot-starter-2.6.13.jar;C:\dev\maven\maven_company_repository\org\springframework\boot\spring-boot\2.6.13\spring-boot-2.6.13.jar;C:\dev\maven\maven_company_repository\org\springframework\boot\spring-boot-autoconfigure\2.6.13\spring-boot-autoconfigure-2.6.13.jar;C:\dev\maven\maven_company_repository\org\springframework\boot\spring-boot-starter-logging\2.6.13\spring-boot-starter-logging-2.6.13.jar;C:\dev\maven\maven_company_repository\org\apache\logging\log4j\log4j-to-slf4j\2.17.2\log4j-to-slf4j-2.17.2.jar;C:\dev\maven\maven_company_repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\dev\maven\maven_company_repository\org\slf4j\jul-to-slf4j\1.7.36\jul-to-slf4j-1.7.36.jar;C:\dev\maven\maven_company_repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\dev\maven\maven_company_repository\org\yaml\snakeyaml\1.29\snakeyaml-1.29.jar;C:\dev\maven\maven_company_repository\org\springframework\boot\spring-boot-starter-json\2.6.13\spring-boot-starter-json-2.6.13.jar;C:\dev\maven\maven_company_repository\com\fasterxml\jackson\core\jackson-databind\2.13.4.2\jackson-databind-2.13.4.2.jar;C:\dev\maven\maven_company_repository\com\fasterxml\jackson\core\jackson-annotations\2.13.4\jackson-annotations-2.13.4.jar;C:\dev\maven\maven_company_repository\com\fasterxml\jackson\core\jackson-core\2.13.4\jackson-core-2.13.4.jar;C:\dev\maven\maven_company_repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.13.4\jackson-datatype-jdk8-2.13.4.jar;C:\dev\maven\maven_company_repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.4\jackson-datatype-jsr310-2.13.4.jar;C:\dev\maven\maven_company_repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.13.4\jackson-module-parameter-names-2.13.4.jar;C:\dev\maven\maven_company_repository\org\springframework\boot\spring-boot-starter-tomcat\2.6.13\spring-boot-starter-tomcat-2.6.13.jar;C:\dev\maven\maven_company_repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.68\tomcat-embed-core-9.0.68.jar;C:\dev\maven\maven_company_repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.68\tomcat-embed-el-9.0.68.jar;C:\dev\maven\maven_company_repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.68\tomcat-embed-websocket-9.0.68.jar;C:\dev\maven\maven_company_repository\org\springframework\spring-web\5.3.23\spring-web-5.3.23.jar;C:\dev\maven\maven_company_repository\org\springframework\spring-beans\5.3.23\spring-beans-5.3.23.jar;C:\dev\maven\maven_company_repository\org\springframework\spring-webmvc\5.3.23\spring-webmvc-5.3.23.jar;C:\dev\maven\maven_company_repository\org\springframework\spring-aop\5.3.23\spring-aop-5.3.23.jar;C:\dev\maven\maven_company_repository\org\springframework\spring-expression\5.3.23\spring-expression-5.3.23.jar;C:\dev\maven\maven_company_repository\org\springframework\kafka\spring-kafka\2.8.10\spring-kafka-2.8.10.jar;C:\dev\maven\maven_company_repository\org\springframework\spring-context\5.3.23\spring-context-5.3.23.jar;C:\dev\maven\maven_company_repository\org\springframework\spring-messaging\5.3.23\spring-messaging-5.3.23.jar;C:\dev\maven\maven_company_repository\org\springframework\spring-tx\5.3.23\spring-tx-5.3.23.jar;C:\dev\maven\maven_company_repository\org\springframework\retry\spring-retry\1.3.4\spring-retry-1.3.4.jar;C:\dev\maven\maven_company_repository\org\apache\kafka\kafka-clients\3.0.2\kafka-clients-3.0.2.jar;C:\dev\maven\maven_company_repository\com\github\luben\zstd-jni\1.5.0-2\zstd-jni-1.5.0-2.jar;C:\dev\maven\maven_company_repository\org\lz4\lz4-java\1.7.1\lz4-java-1.7.1.jar;C:\dev\maven\maven_company_repository\org\xerial\snappy\snappy-java\1.1.8.1\snappy-java-1.1.8.1.jar;C:\dev\maven\maven_company_repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\dev\maven\maven_company_repository\com\alibaba\fastjson2\fastjson2-extension-spring5\2.0.39\fastjson2-extension-spring5-2.0.39.jar;C:\dev\maven\maven_company_repository\com\alibaba\fastjson2\fastjson2-extension\2.0.39\fastjson2-extension-2.0.39.jar;C:\dev\maven\maven_company_repository\com\alibaba\fastjson2\fastjson2\2.0.39\fastjson2-2.0.39.jar;C:\dev\maven\maven_company_repository\org\apache\curator\curator-framework\5.2.1\curator-framework-5.2.1.jar;C:\dev\maven\maven_company_repository\org\apache\curator\curator-client\5.2.1\curator-client-5.2.1.jar;C:\dev\maven\maven_company_repository\com\google\guava\guava\27.0.1-jre\guava-27.0.1-jre.jar;C:\dev\maven\maven_company_repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\dev\maven\maven_company_repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\dev\maven\maven_company_repository\org\checkerframework\checker-qual\2.5.2\checker-qual-2.5.2.jar;C:\dev\maven\maven_company_repository\com\google\errorprone\error_prone_annotations\2.2.0\error_prone_annotations-2.2.0.jar;C:\dev\maven\maven_company_repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\dev\maven\maven_company_repository\org\codehaus\mojo\animal-sniffer-annotations\1.17\animal-sniffer-annotations-1.17.jar;C:\dev\maven\maven_company_repository\org\apache\curator\curator-recipes\5.2.1\curator-recipes-5.2.1.jar;C:\dev\maven\maven_company_repository\org\apache\zookeeper\zookeeper\3.8.0\zookeeper-3.8.0.jar;C:\dev\maven\maven_company_repository\org\apache\zookeeper\zookeeper-jute\3.8.0\zookeeper-jute-3.8.0.jar;C:\dev\maven\maven_company_repository\org\apache\yetus\audience-annotations\0.12.0\audience-annotations-0.12.0.jar;C:\dev\maven\maven_company_repository\io\netty\netty-handler\4.1.84.Final\netty-handler-4.1.84.Final.jar;C:\dev\maven\maven_company_repository\io\netty\netty-common\4.1.84.Final\netty-common-4.1.84.Final.jar;C:\dev\maven\maven_company_repository\io\netty\netty-resolver\4.1.84.Final\netty-resolver-4.1.84.Final.jar;C:\dev\maven\maven_company_repository\io\netty\netty-buffer\4.1.84.Final\netty-buffer-4.1.84.Final.jar;C:\dev\maven\maven_company_repository\io\netty\netty-transport\4.1.84.Final\netty-transport-4.1.84.Final.jar;C:\dev\maven\maven_company_repository\io\netty\netty-transport-native-unix-common\4.1.84.Final\netty-transport-native-unix-common-4.1.84.Final.jar;C:\dev\maven\maven_company_repository\io\netty\netty-codec\4.1.84.Final\netty-codec-4.1.84.Final.jar;C:\dev\maven\maven_company_repository\io\netty\netty-tcnative\2.0.54.Final\netty-tcnative-2.0.54.Final.jar;C:\dev\maven\maven_company_repository\io\netty\netty-tcnative-classes\2.0.54.Final\netty-tcnative-classes-2.0.54.Final.jar;C:\dev\maven\maven_company_repository\io\netty\netty-transport-native-epoll\4.1.84.Final\netty-transport-native-epoll-4.1.84.Final.jar;C:\dev\maven\maven_company_repository\io\netty\netty-transport-classes-epoll\4.1.84.Final\netty-transport-classes-epoll-4.1.84.Final.jar;C:\dev\maven\maven_company_repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\dev\maven\maven_company_repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;C:\dev\maven\maven_company_repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar;C:\dev\maven\maven_company_repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\dev\maven\maven_company_repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;C:\dev\maven\maven_company_repository\org\springframework\spring-core\5.3.23\spring-core-5.3.23.jar;C:\dev\maven\maven_company_repository\org\springframework\spring-jcl\5.3.23\spring-jcl-5.3.23.jar;C:\dev\maven\maven_company_repository\org\springframework\boot\spring-boot-configuration-processor\2.6.13\spring-boot-configuration-processor-2.6.13.jar;D:\Program Files\JetBrains\IntelliJ IDEA 2023.2.5\lib\idea_rt.jar;C:\Users\Administrator\AppData\Local\JetBrains\IntelliJIdea2023.3\captureAgent\debugger-agent.jar
+09:26:59.772 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:java.library.path=C:\dev\jdk\jdk1.8.0_231\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\dev\jdk\jdk1.8.0_231\bin;C:\dev\jdk\jdk1.8.0_231\jre\bin;C:\dev\maven\apache-maven-3.2.2\bin;D:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Roaming\nvm;D:\Program Files\nodejs;C:\dev\groovy\groovy-4.0.15\bin;C:\dev\Go\bin;D:\ProgramData\anaconda3;D:\ProgramData\anaconda3\Scripts;D:\ProgramData\anaconda3\Library\mingw-w64\bin;D:\ProgramData\anaconda3\Library\usr\bin;D:\ProgramData\anaconda3\Library\bin;C:\Program Files (x86)\cmd;C:\dev\gcc\x86_64-13.2.0-release-win32-seh-ucrt-rt_v11-rev1\bin;;C:\Program Files\Docker\Docker\resources\bin;D:\Program Files (x86)\Tencent\微信web开发者工具\dll;C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python312\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\Program Files\JetBrains\IntelliJ IDEA 2023.2.5\bin;;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\nvm;D:\Program Files\nodejs;.
+09:26:59.772 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:java.io.tmpdir=C:\Users\Administrator\AppData\Local\Temp\
+09:26:59.772 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:java.compiler=<NA>
+09:26:59.772 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:os.name=Windows 10
+09:26:59.772 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:os.arch=amd64
+09:26:59.772 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:os.version=10.0
+09:26:59.773 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:user.name=Administrator
+09:26:59.773 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:user.home=C:\Users\Administrator
+09:26:59.773 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:user.dir=D:\code\java_study\kafka_ack
+09:26:59.773 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:os.memory.free=177MB
+09:26:59.773 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:os.memory.max=3604MB
+09:26:59.773 [main] INFO  o.a.z.ZooKeeper - [logEnv,98] - Client environment:os.memory.total=210MB
+09:26:59.775 [main] INFO  o.a.z.ZooKeeper - [<init>,637] - Initiating client connection, connectString=172.16.17.112:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@6d8796c1
+09:26:59.777 [main] INFO  o.a.z.c.X509Util - [<clinit>,77] - Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+09:26:59.785 [main] INFO  o.a.z.ClientCnxnSocket - [initProperties,239] - jute.maxbuffer value is 1048575 Bytes
+09:26:59.790 [main] INFO  o.a.z.ClientCnxn - [initRequestTimeout,1732] - zookeeper.request.timeout value is 0. feature enabled=false
+09:26:59.794 [main-SendThread(172.16.17.112:2181)] INFO  o.a.z.ClientCnxn - [logStartConnect,1171] - Opening socket connection to server ZHNX41376/172.16.17.112:2181.
+09:26:59.794 [main-SendThread(172.16.17.112:2181)] INFO  o.a.z.ClientCnxn - [logStartConnect,1173] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+09:26:59.796 [main] INFO  o.a.c.f.i.CuratorFrameworkImpl - [start,386] - Default schema
+09:26:59.796 [main-SendThread(172.16.17.112:2181)] INFO  o.a.z.ClientCnxn - [primeConnection,1005] - Socket connection established, initiating session, client: /172.16.17.112:61982, server: ZHNX41376/172.16.17.112:2181
+09:26:59.810 [main-SendThread(172.16.17.112:2181)] INFO  o.a.z.ClientCnxn - [onConnected,1444] - Session establishment complete on server ZHNX41376/172.16.17.112:2181, session id = 0x100002490820003, negotiated timeout = 40000
+09:26:59.817 [main-EventThread] INFO  o.a.c.f.s.ConnectionStateManager - [postState,252] - State change: CONNECTED
+09:26:59.827 [main-EventThread] INFO  o.a.c.f.i.EnsembleTracker - [processConfigData,201] - New config event received: {}
+09:26:59.827 [main-EventThread] INFO  o.a.c.f.i.EnsembleTracker - [processConfigData,201] - New config event received: {}
+09:27:00.186 [main] INFO  o.a.k.c.a.AdminClientConfig - [logAll,376] - AdminClientConfig values: 
+	bootstrap.servers = [172.16.17.112:9093]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+09:27:00.234 [main] INFO  o.a.k.c.u.AppInfoParser - [<init>,119] - Kafka version: 3.0.2
+09:27:00.234 [main] INFO  o.a.k.c.u.AppInfoParser - [<init>,120] - Kafka commitId: 25b1aea02e37da14
+09:27:00.234 [main] INFO  o.a.k.c.u.AppInfoParser - [<init>,121] - Kafka startTimeMs: 1706664420233
+09:27:00.599 [kafka-admin-client-thread | adminclient-1] INFO  o.a.k.c.u.AppInfoParser - [unregisterAppInfo,83] - App info kafka.admin.client for adminclient-1 unregistered
+09:27:00.603 [kafka-admin-client-thread | adminclient-1] INFO  o.a.k.c.m.Metrics - [close,659] - Metrics scheduler closed
+09:27:00.603 [kafka-admin-client-thread | adminclient-1] INFO  o.a.k.c.m.Metrics - [close,663] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+09:27:00.603 [kafka-admin-client-thread | adminclient-1] INFO  o.a.k.c.m.Metrics - [close,669] - Metrics reporters closed
+09:27:00.618 [main] INFO  o.a.k.c.c.ConsumerConfig - [logAll,376] - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [172.16.17.112:9093]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-listenerGroup1-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = listenerGroup1
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+09:27:00.641 [main] INFO  o.a.k.c.u.AppInfoParser - [<init>,119] - Kafka version: 3.0.2
+09:27:00.641 [main] INFO  o.a.k.c.u.AppInfoParser - [<init>,120] - Kafka commitId: 25b1aea02e37da14
+09:27:00.641 [main] INFO  o.a.k.c.u.AppInfoParser - [<init>,121] - Kafka startTimeMs: 1706664420641
+09:27:00.642 [main] INFO  o.a.k.c.c.KafkaConsumer - [subscribe,966] - [Consumer clientId=consumer-listenerGroup1-1, groupId=listenerGroup1] Subscribed to topic(s): topic1
+09:27:00.652 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8082"]
+09:27:00.673 [listener1-0-C-1] INFO  o.a.k.c.Metadata - [updateLatestMetadata,401] - [Consumer clientId=consumer-listenerGroup1-1, groupId=listenerGroup1] Resetting the last seen epoch of partition topic1-0 to 4 since the associated topicId changed from null to FZi6vKpKSP6viTcxVVHJlQ
+09:27:00.674 [listener1-0-C-1] INFO  o.a.k.c.Metadata - [updateLatestMetadata,401] - [Consumer clientId=consumer-listenerGroup1-1, groupId=listenerGroup1] Resetting the last seen epoch of partition topic1-2 to 6 since the associated topicId changed from null to FZi6vKpKSP6viTcxVVHJlQ
+09:27:00.674 [listener1-0-C-1] INFO  o.a.k.c.Metadata - [updateLatestMetadata,401] - [Consumer clientId=consumer-listenerGroup1-1, groupId=listenerGroup1] Resetting the last seen epoch of partition topic1-1 to 6 since the associated topicId changed from null to FZi6vKpKSP6viTcxVVHJlQ
+09:27:00.675 [listener1-0-C-1] INFO  o.a.k.c.Metadata - [update,287] - [Consumer clientId=consumer-listenerGroup1-1, groupId=listenerGroup1] Cluster ID: z2qUo6dsSXKfdhA6Ymt6Hw
+09:27:00.676 [main] INFO  o.j.k.KafkaAckApplication - [logStarted,61] - Started KafkaAckApplication in 2.257 seconds (JVM running for 3.96)
+09:27:00.679 [listener1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [onSuccess,849] - [Consumer clientId=consumer-listenerGroup1-1, groupId=listenerGroup1] Discovered group coordinator 172.16.17.112:9095 (id: 2147483645 rack: null)
+09:27:00.681 [listener1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [sendJoinGroupRequest,535] - [Consumer clientId=consumer-listenerGroup1-1, groupId=listenerGroup1] (Re-)joining group
+09:27:00.715 [listener1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [requestRejoin,988] - [Consumer clientId=consumer-listenerGroup1-1, groupId=listenerGroup1] Request joining group due to: need to re-join with the given member-id
+09:27:00.715 [listener1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [sendJoinGroupRequest,535] - [Consumer clientId=consumer-listenerGroup1-1, groupId=listenerGroup1] (Re-)joining group
+09:27:03.730 [listener1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [handle,591] - [Consumer clientId=consumer-listenerGroup1-1, groupId=listenerGroup1] Successfully joined group with generation Generation{generationId=11, memberId='consumer-listenerGroup1-1-61440d09-0118-478d-8fff-b61c39d4d15c', protocol='range'}
+09:27:03.733 [listener1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [performAssignment,652] - [Consumer clientId=consumer-listenerGroup1-1, groupId=listenerGroup1] Finished assignment for group at generation 11: {consumer-listenerGroup1-1-61440d09-0118-478d-8fff-b61c39d4d15c=Assignment(partitions=[topic1-0, topic1-1, topic1-2])}
+09:27:03.779 [listener1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [handle,757] - [Consumer clientId=consumer-listenerGroup1-1, groupId=listenerGroup1] Successfully synced group in generation Generation{generationId=11, memberId='consumer-listenerGroup1-1-61440d09-0118-478d-8fff-b61c39d4d15c', protocol='range'}
+09:27:03.780 [listener1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [invokeOnAssignment,279] - [Consumer clientId=consumer-listenerGroup1-1, groupId=listenerGroup1] Notifying assignor about the new Assignment(partitions=[topic1-0, topic1-1, topic1-2])
+09:27:03.784 [listener1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [invokePartitionsAssigned,291] - [Consumer clientId=consumer-listenerGroup1-1, groupId=listenerGroup1] Adding newly assigned partitions: topic1-1, topic1-0, topic1-2
+09:27:03.806 [listener1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [refreshCommittedOffsetsIfNeeded,844] - [Consumer clientId=consumer-listenerGroup1-1, groupId=listenerGroup1] Setting offset for partition topic1-1 to the committed offset FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[172.16.17.112:9095 (id: 2 rack: null)], epoch=6}}
+09:27:03.806 [listener1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [refreshCommittedOffsetsIfNeeded,844] - [Consumer clientId=consumer-listenerGroup1-1, groupId=listenerGroup1] Setting offset for partition topic1-0 to the committed offset FetchPosition{offset=1, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[172.16.17.112:9094 (id: 1 rack: null)], epoch=4}}
+09:27:03.807 [listener1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [refreshCommittedOffsetsIfNeeded,844] - [Consumer clientId=consumer-listenerGroup1-1, groupId=listenerGroup1] Setting offset for partition topic1-2 to the committed offset FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[172.16.17.112:9093 (id: 0 rack: null)], epoch=6}}
+09:27:34.657 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:27:45.833 [http-nio-8082-exec-4] INFO  o.a.k.c.p.ProducerConfig - [logAll,376] - ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [172.16.17.112:9093]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+09:27:45.845 [http-nio-8082-exec-4] INFO  o.a.k.c.p.KafkaProducer - [configureTransactionState,532] - [Producer clientId=producer-1] Instantiated an idempotent producer.
+09:27:45.858 [http-nio-8082-exec-4] INFO  o.a.k.c.u.AppInfoParser - [<init>,119] - Kafka version: 3.0.2
+09:27:45.858 [http-nio-8082-exec-4] INFO  o.a.k.c.u.AppInfoParser - [<init>,120] - Kafka commitId: 25b1aea02e37da14
+09:27:45.858 [http-nio-8082-exec-4] INFO  o.a.k.c.u.AppInfoParser - [<init>,121] - Kafka startTimeMs: 1706664465858
+09:27:45.874 [kafka-producer-network-thread | producer-1] INFO  o.a.k.c.Metadata - [updateLatestMetadata,401] - [Producer clientId=producer-1] Resetting the last seen epoch of partition topic1-0 to 4 since the associated topicId changed from null to FZi6vKpKSP6viTcxVVHJlQ
+09:27:45.874 [kafka-producer-network-thread | producer-1] INFO  o.a.k.c.Metadata - [updateLatestMetadata,401] - [Producer clientId=producer-1] Resetting the last seen epoch of partition topic1-2 to 6 since the associated topicId changed from null to FZi6vKpKSP6viTcxVVHJlQ
+09:27:45.874 [kafka-producer-network-thread | producer-1] INFO  o.a.k.c.Metadata - [updateLatestMetadata,401] - [Producer clientId=producer-1] Resetting the last seen epoch of partition topic1-1 to 6 since the associated topicId changed from null to FZi6vKpKSP6viTcxVVHJlQ
+09:27:45.874 [kafka-producer-network-thread | producer-1] INFO  o.a.k.c.Metadata - [update,287] - [Producer clientId=producer-1] Cluster ID: z2qUo6dsSXKfdhA6Ymt6Hw
+09:27:45.915 [kafka-producer-network-thread | producer-1] INFO  o.a.k.c.p.i.TransactionManager - [setProducerIdAndEpoch,548] - [Producer clientId=producer-1] ProducerId set to 1000 with epoch 0
+09:27:45.992 [listener1-0-C-1] INFO  o.j.k.l.MsgListener - [lambda$listen$0,22] - 接收到消息: 123
+09:27:46.152 [http-nio-8082-exec-4] INFO  o.j.k.c.MsgController - [sendMsg,26] - SendResult :{"producerRecord":{},"recordMetadata":{}}
+09:27:49.734 [listener1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [invokePartitionsRevoked,310] - [Consumer clientId=consumer-listenerGroup1-1, groupId=listenerGroup1] Revoke previously assigned partitions topic1-1, topic1-0, topic1-2
+09:27:49.735 [listener1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [maybeLeaveGroup,1048] - [Consumer clientId=consumer-listenerGroup1-1, groupId=listenerGroup1] Member consumer-listenerGroup1-1-61440d09-0118-478d-8fff-b61c39d4d15c sending LeaveGroup request to coordinator 172.16.17.112:9095 (id: 2147483645 rack: null) due to the consumer unsubscribed from all topics
+09:27:49.737 [listener1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [resetStateAndGeneration,966] - [Consumer clientId=consumer-listenerGroup1-1, groupId=listenerGroup1] Resetting generation due to: consumer pro-actively leaving the group
+09:27:49.737 [listener1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [requestRejoin,988] - [Consumer clientId=consumer-listenerGroup1-1, groupId=listenerGroup1] Request joining group due to: consumer pro-actively leaving the group
+09:27:49.737 [listener1-0-C-1] INFO  o.a.k.c.c.KafkaConsumer - [unsubscribe,1075] - [Consumer clientId=consumer-listenerGroup1-1, groupId=listenerGroup1] Unsubscribed all topics or patterns and assigned partitions
+09:27:49.737 [listener1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [resetStateAndGeneration,966] - [Consumer clientId=consumer-listenerGroup1-1, groupId=listenerGroup1] Resetting generation due to: consumer pro-actively leaving the group
+09:27:49.737 [listener1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [requestRejoin,988] - [Consumer clientId=consumer-listenerGroup1-1, groupId=listenerGroup1] Request joining group due to: consumer pro-actively leaving the group
+09:27:49.746 [listener1-0-C-1] INFO  o.a.k.c.m.Metrics - [close,659] - Metrics scheduler closed
+09:27:49.746 [listener1-0-C-1] INFO  o.a.k.c.m.Metrics - [close,663] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+09:27:49.746 [listener1-0-C-1] INFO  o.a.k.c.m.Metrics - [close,669] - Metrics reporters closed
+09:27:49.749 [listener1-0-C-1] INFO  o.a.k.c.u.AppInfoParser - [unregisterAppInfo,83] - App info kafka.consumer for consumer-listenerGroup1-1 unregistered
+09:27:49.752 [Curator-Framework-0] INFO  o.a.c.f.i.CuratorFrameworkImpl - [backgroundOperationsLoop,998] - backgroundOperationsLoop exiting
+09:27:49.880 [main-EventThread] INFO  o.a.z.ClientCnxn - [run,568] - EventThread shut down for session: 0x100002490820003
+09:27:49.880 [SpringApplicationShutdownHook] INFO  o.a.z.ZooKeeper - [close,1232] - Session: 0x100002490820003 closed
+09:27:49.880 [SpringApplicationShutdownHook] INFO  o.a.k.c.p.KafkaProducer - [close,1189] - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+09:27:49.882 [SpringApplicationShutdownHook] INFO  o.a.k.c.m.Metrics - [close,659] - Metrics scheduler closed
+09:27:49.882 [SpringApplicationShutdownHook] INFO  o.a.k.c.m.Metrics - [close,663] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+09:27:49.882 [SpringApplicationShutdownHook] INFO  o.a.k.c.m.Metrics - [close,669] - Metrics reporters closed
+09:27:49.883 [SpringApplicationShutdownHook] INFO  o.a.k.c.u.AppInfoParser - [unregisterAppInfo,83] - App info kafka.producer for producer-1 unregistered
